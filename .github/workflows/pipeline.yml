@@ -1,9 +1,11 @@
 name: conchayoro-pipeline
+ 
 on:
-workflow_dispatch
+  workflow_dispatch
+ 
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: executa comando
-run: echo "Configuração inicial do pipeline"
+  build:
+    runs-on: ubuntu-latest
+    steps:            
+      - name: executa comando
+        run: echo "Configuração inicial do pipeline"
