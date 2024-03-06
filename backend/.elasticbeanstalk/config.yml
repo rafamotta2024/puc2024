@@ -3,8 +3,8 @@ branch-defaults:
     environment: backend
 environment-defaults:
   backend:
-  branch: null
-repository: null
+    branch: null
+    repository: null
 global:
   application_name: conchayoro
   default_ec2_keyname: vockey
