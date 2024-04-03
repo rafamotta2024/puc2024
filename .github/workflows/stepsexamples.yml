@@ -1,7 +1,6 @@
 name: steps examples
 
-on:
-  push:
+workflow_dispatch
    branches: [ "main" ]
 
 jobs:
